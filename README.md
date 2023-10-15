@@ -164,3 +164,51 @@ yarn add react-native-magnus
 yarn add react-native-animatable react-native-modal react-native-vector-icons
 
 ```
+
+> react-navigation[https://reactnavigation.org/docs/getting-started/]
+
+```
+yarn add @react-navigation/native
+
+yarn add react-native-screens react-native-safe-area-context
+
+npx pod-install ios
+
+react-native-screens package requires one additional configuration step to properly work on Android devices. Edit MainActivity.java file which is located in android/app/src/main/java/<your package name>/MainActivity.java.
+
+Add the following code to the body of MainActivity class:
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
+
+and make sure to add an import statement at the top of this file:
+
+import android.os.Bundle;
+
+yarn add @react-navigation/native-stack
+
+yarn add @react-navigation/bottom-tabs
+
+-- Material Tab Tabs
+
+https://reactnavigation.org/docs/material-top-tab-navigator#installation
+
+yarn add @react-navigation/material-top-tabs react-native-tab-view
+
+yarn add react-native-pager-view
+
+
+for some ui elements or types
+yarn add @react-navigation/elements
+```
+
+</br>
+
+> react-native-async-storage/async-storage
+
+```
+yarn add @react-native-async-storage/async-storage
+npx pod-install
+```
