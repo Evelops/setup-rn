@@ -1,4 +1,4 @@
-package com.billapp;
+package com.gcc.billapp;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

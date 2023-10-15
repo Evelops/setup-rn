@@ -1,4 +1,4 @@
-package com.billapp;
+package com.gcc.billapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
