@@ -54,3 +54,13 @@ $ npx pod-install
 ```
 
 </br>
+
+> Setup eslint-prettier-husky[https://dev-yakuza.posstree.com/en/react-native/eslint-prettier-husky-lint-staged/]
+
+</hr>
+
+<br>
+
+```
+
+```
